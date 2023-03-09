@@ -46,3 +46,12 @@ model MyOtherModel {
 
   parent MyModel @relation(fields: [parentId], references: [id])
 }
+
+view MyView {
+  id    Int?
+  email String?
+  name  String?
+  bio   String?
+
+  @@ignore
+}

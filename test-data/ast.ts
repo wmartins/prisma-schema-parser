@@ -1258,6 +1258,164 @@ const ast: PrismaSchema = {
         end: { offset: 1118, line: 48, column: 2 },
       },
     },
+    {
+      kind: "view",
+      name: {
+        kind: "name",
+        value: "MyView",
+        location: {
+          start: { offset: 1125, line: 50, column: 6 },
+          end: { offset: 1131, line: 50, column: 12 },
+        },
+      },
+      members: [
+        {
+          kind: "field",
+          name: {
+            kind: "name",
+            value: "id",
+            location: {
+              start: { offset: 1136, line: 51, column: 3 },
+              end: { offset: 1138, line: 51, column: 5 },
+            },
+          },
+          type: {
+            kind: "optional",
+            type: {
+              kind: "typeId",
+              name: {
+                kind: "name",
+                value: "Int",
+                location: {
+                  start: { offset: 1142, line: 51, column: 9 },
+                  end: { offset: 1145, line: 51, column: 12 },
+                },
+              },
+            },
+          },
+          attributes: [],
+          comment: null,
+          location: {
+            start: { offset: 1136, line: 51, column: 3 },
+            end: { offset: 1146, line: 51, column: 13 },
+          },
+        },
+        {
+          kind: "field",
+          name: {
+            kind: "name",
+            value: "email",
+            location: {
+              start: { offset: 1149, line: 52, column: 3 },
+              end: { offset: 1154, line: 52, column: 8 },
+            },
+          },
+          type: {
+            kind: "optional",
+            type: {
+              kind: "typeId",
+              name: {
+                kind: "name",
+                value: "String",
+                location: {
+                  start: { offset: 1155, line: 52, column: 9 },
+                  end: { offset: 1161, line: 52, column: 15 },
+                },
+              },
+            },
+          },
+          attributes: [],
+          comment: null,
+          location: {
+            start: { offset: 1149, line: 52, column: 3 },
+            end: { offset: 1162, line: 52, column: 16 },
+          },
+        },
+        {
+          kind: "field",
+          name: {
+            kind: "name",
+            value: "name",
+            location: {
+              start: { offset: 1165, line: 53, column: 3 },
+              end: { offset: 1169, line: 53, column: 7 },
+            },
+          },
+          type: {
+            kind: "optional",
+            type: {
+              kind: "typeId",
+              name: {
+                kind: "name",
+                value: "String",
+                location: {
+                  start: { offset: 1171, line: 53, column: 9 },
+                  end: { offset: 1177, line: 53, column: 15 },
+                },
+              },
+            },
+          },
+          attributes: [],
+          comment: null,
+          location: {
+            start: { offset: 1165, line: 53, column: 3 },
+            end: { offset: 1178, line: 53, column: 16 },
+          },
+        },
+        {
+          kind: "field",
+          name: {
+            kind: "name",
+            value: "bio",
+            location: {
+              start: { offset: 1181, line: 54, column: 3 },
+              end: { offset: 1184, line: 54, column: 6 },
+            },
+          },
+          type: {
+            kind: "optional",
+            type: {
+              kind: "typeId",
+              name: {
+                kind: "name",
+                value: "String",
+                location: {
+                  start: { offset: 1187, line: 54, column: 9 },
+                  end: { offset: 1193, line: 54, column: 15 },
+                },
+              },
+            },
+          },
+          attributes: [],
+          comment: null,
+          location: {
+            start: { offset: 1181, line: 54, column: 3 },
+            end: { offset: 1194, line: 54, column: 16 },
+          },
+        },
+        {
+          kind: "blockAttribute",
+          path: {
+            kind: "path",
+            value: ["ignore"],
+            location: {
+              start: { offset: 1200, line: 56, column: 5 },
+              end: { offset: 1206, line: 56, column: 11 },
+            },
+          },
+          args: [],
+          comment: null,
+          location: {
+            start: { offset: 1198, line: 56, column: 3 },
+            end: { offset: 1206, line: 56, column: 11 },
+          },
+        },
+      ],
+      location: {
+        start: { offset: 1120, line: 50, column: 1 },
+        end: { offset: 1208, line: 57, column: 2 },
+      },
+    },
   ],
 };
 

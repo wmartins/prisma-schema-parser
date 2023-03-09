@@ -23,6 +23,7 @@ export function getDeclarationName(decl: PrismaDeclaration): string {
     case "generator":
     case "model":
     case "type":
+    case "view":
     case "typeAlias":
       return `${noCase(decl.kind)} ${decl.name.value}`;
     case "commentBlock":
